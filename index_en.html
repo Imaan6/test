@@ -1,0 +1,493 @@
+<!DOCTYPE html><html>
+    
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Quel Style d'Hotel preferez-vous ?</title>
+        <style type="text/css">
+            .btn a {
+                color: #fff;
+                font-family: Helvetica, Arial, sans-serif;
+                text-decoration: none;
+                display: inline-block;
+                padding: 6px 12px;
+                margin-bottom: 0;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.42857143;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                -ms-touch-action: manipulation;
+                touch-action: manipulation;
+                cursor: pointer;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ff6699;
+                border: 1px solid transparent;
+                border-radius: 2px;
+            }
+
+            .table-logo__img {
+                display: block;
+                text-align: center;
+            }
+
+            .footer a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            .footer a:hover {
+                color: #ff6699;
+            }
+
+            .container {
+                margin: 0 auto;
+                max-width: 640px;
+                padding: 0px;
+            }
+
+            .table-logo {
+                width: 640px;
+                margin-bottom: 10px;
+            }
+
+            .logo {
+                border-width: medium;
+                border-style: none !important;
+                color: #555;
+            }
+
+            .date-newsletter {
+                vertical-align: bottom;
+                color: #777777;
+                font-family: arial;
+                font-size: 14px;
+                line-height: 20px;
+                text-align: right;
+                text-decoration: initial;
+            }
+
+            .header-image {
+                background-color: #f5f5f5;
+                color: #555;
+                height: 150px;
+                width: 640px;
+                margin: 1px;
+            }
+
+            .item-container {
+                border-collapse: separate;
+                border-spacing: 0;
+                border: 1px solid #cccccc;
+                margin-top: 20px;
+                width: auto;
+                padding: 0;
+                -webkit-border-radius: 4px;
+                -moz-border-radius: 4px;
+                border-radius: 4px;
+            }
+
+            .item-container__img {
+                border-style: none !important;
+                padding: 0px;
+                margin: 0px;
+                display: block;
+                background-color: #f5f5f5;
+                color: #555;
+            }
+
+            .item-container__info {
+                margin: 20px;
+                width: auto;
+            }
+
+            .item-container__hotel {
+                width: 483px;
+            }
+
+            .item-container__name {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 24px;
+                margin: 0;
+                padding: 0;
+                font-weight: bold;
+                line-height: 1;
+                color: #61757c;
+                margin-bottom: 3px;
+            }
+
+            .item-container__location {
+                color: #61757c;
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                margin-left: 3px;
+            }
+
+            .item-container__offer {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                color: #ff6699;
+                margin-left: 3px;
+            }
+
+            .item-container__button {
+                vertical-align: middle;
+                text-align: right;
+                width: 108px;
+            }
+
+            .footer-container {
+                min-height: 20px;
+                padding: 0px 0 20px 20px;
+                background-color: #a6abac;
+                border: 0;
+                -webkit-border-radius: 2px;
+                border-collapse: separate;
+                width: 640px;
+                margin: 20px 0 1px 0;
+            }
+
+            .footer-container__social {
+                float: right;
+                padding: 10px;
+                background-color: #4d575a;
+            }
+
+            .footer-container__service {
+                float: left;
+                width: 77%;
+                margin-top: 20px;
+                margin-top: 20px;
+            }
+
+            .footer-contact {
+                float: left;
+                width: 50%;
+                margin-top: 24px
+            }
+
+            .footer-times {
+                float: left;
+                margin-top: 24px
+            }
+
+            @media only screen and (max-width: 480px) {
+                body, table, td, p, a, li, blockquote {
+                    -webkit-text-size-adjust: none !important;
+                }
+
+                /* Prevent Webkit platforms from changing default text sizes */
+                body {
+                    width: 100% !important;
+                    min-width: 100% !important;
+                    margin: 0;
+                    padding: 0
+                }
+
+                /* Prevent iOS Mail from adding padding to the body */
+                .container {
+                    width: 100% !important;
+                    max-width: 100% !important;
+                    margin: 0 !important;
+                }
+
+                .table-logo {
+                    height: auto !important;
+                    max-width: 480px !important;
+                    width: 100% !important;
+                }
+
+                .table-logo__img {
+                    display: block;
+                }
+
+                .date-newsletter {
+                    margin-top: 10px;
+                    display: block;
+                    float: left;
+                }
+
+                .header-image {
+                    height: auto !important;
+                    max-width: 480px !important;
+                    width: 100% !important;
+                }
+
+                .item-container__img {
+                    height: auto !important;
+                    max-width: 480px !important;
+                    width: 100% !important;
+                }
+
+                .item-container__name {
+                    font-size: 20px !important;
+                }
+
+                .item-container__info {
+                    width: 100% !important;
+                    padding: 10px;
+                    margin: 0 !important;
+                }
+
+                .footer-container {
+                    height: auto !important;
+                    max-width: 480px !important;
+                    width: 100% !important;
+                }
+
+                .item-container__hotel {
+                    display: block !important;
+                    height: auto !important;
+                    width: 100% !important;
+                }
+
+                .item-container__hotel table {
+                    width: 100%;
+                }
+
+                .item-container__button {
+                    width: 100% !important;
+                    display: block !important;
+                    height: auto !important;
+                    text-align: left !important;
+                    margin-top: 10px;
+                }
+
+                .btn a {
+                    display: block !important;
+                }
+
+                .footer-container {
+                    padding: 0 !important;
+                }
+
+                .hide {
+                    display: none;
+                }
+
+                .footer-container__social {
+                    float: none !important;
+                    text-align: center;
+                }
+
+                .footer-container__service {
+                    float: none !important;
+                    text-align: center;
+                    width: 100% !important;
+                }
+
+                .footer-contact {
+                    float: none !important;
+                    width: auto !important;
+                    text-align: center;
+                    margin-top: 0 !important;
+                }
+
+                .footer-times {
+                    float: none !important;
+                    text-align: center;
+                }
+
+                .container-padding {
+                    padding: 0 10px 10px 10px !important
+                }
+            }
+
+            [draggable] {
+                -moz-user-select: none;
+                -khtml-user-select: none;
+                -webkit-user-select: none;
+                user-select: none;
+            }
+
+            .draggable {
+                cursor: move;
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div align="center"><font face="arial" size="1">
+                <singleline label="no_image">If you can't view the images, please, </singleline>
+                <a href="" target="_blank" style="font-family: arial; text-decoration: none; color: #de3996; font-size: 10px;">
+                    <webversion>please click here</webversion>
+                </a></font></div>
+        <div align="center"><font face="arial" size="1">&nbsp;</font></div>
+        <table class="container" align="center">
+            <tbody><tr>
+                <td>
+                    <table class="table-logo" border="0" cellspacing="0" cellpadding="0">
+                        <tbody><tr>
+                            <td class="table-logo__img"><a href="http://staging-www.prestigia.com/" target="_blank" title=""><img class="logo" label="logo" editable="true" src="csimport/logo_0.png" width="269" alt="Prestigia | Hôtels de Luxe et de Charme" title=""></a></td>
+                        </tr>
+                    </tbody></table>
+                    <table border="0" cellspacing="0" cellpadding="0">
+                        <tbody><tr>
+                            <td>
+                                <table border="0" cellspacing="0" cellpadding="0" style="width: 100%;">
+                                    <tbody><tr>
+                                        <td><a href="http://staging-www.prestigia.com/"><img label="image" editable="true" src="csimport/header_en_1.png" alt="" width="600" class="header-image"></a></td>
+                                    </tr>
+                                </tbody></table>
+                                <div id="liste">
+                                                                            <repeater class="draggable" draggable="true">
+                                            <table id="hotel_555" cellspacing="0" cellpadding="0" class="item-container">
+                                                <tbody><tr style="margin: 0; padding: 0; border: 0;">
+                                                    <td>
+                                                        <table cellspacing="0" cellpadding="0">
+                                                            <tbody><tr>
+                                                                <td>
+                                                                    <div>
+                                                                        <a href="https://staging-www.prestigia.com/en/produit.php?idTarget=555&amp;a=996339&amp;dev=4" target="_blank" title="">
+                                                                            <img class="item-container__img" label="image" editable="true" src="https://d1rioy1v9s51jr.cloudfront.net/pics/555/900x540/riad-dar-el-kebira-1_6948.jpg" alt="Riad Dar El Kebira" width="640" title=""></a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                        <table border="0" class="item-container__info">
+                                                            <tbody><tr>
+                                                                <td height="50" class="item-container__hotel">
+                                                                    <table cellspacing="0" cellpadding="0" border="0">
+                                                                        <tbody><tr>
+                                                                            <td>
+                                                                                <h3 class="item-container__name">
+                                                                                    <singleline label="HtelName">Riad Dar El Kebira</singleline>
+                                                                                </h3>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td height="20">
+                                                                <span class="item-container__location"><span>
+                                                                    <singleline label="location_555">Rabat, Morocco</singleline>
+                                                                    &nbsp;</span></span></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>
+                                                                                
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody></table>
+                                                                </td>
+                                                                <td height="50" class="item-container__button">
+                                                                    <span class="btn">
+                                                                        <a href="https://staging-www.prestigia.com/en/produit.php?idTarget=555&amp;a=996339&amp;dev=4"><singleline label="reservation">Check Offer</singleline></a>
+                                                                    </span>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+                                        </repeater>
+                                                                    </div>
+
+
+                            </td>
+                        </tr>
+                    </tbody></table>
+                    <table cellspacing="0" cellpadding="0" class="footer-container">
+                        <tbody><tr>
+                            <td class="hide">
+                                <img src="csimport/footer-logo.png" width="55" height="" style="margin-top: 20px;width: 55px;" alt="">
+                            </td>
+                            <td style="vertical-align: top;">
+                                <div class="footer-container__social">
+                                    <a href="https://www.facebook.com/Prestigia" title="Prestigia" target="_blank" style="color: transparent">
+                                        <img src="csimport/facebook-icon.png" alt="Prestigia" width="20" height="20">
+                                    </a>
+                                    <a href="https://www.twitter.com/prestigiahotels" title="Prestigia" target="_blank" style="color: transparent">
+                                        <img src="csimport/twitter-icon.png" alt="Prestigia" width="20" height="20">
+                                    </a>
+                                    <a href="https://www.pinterest.com/prestigiahotels/" title="Prestigia" target="_blank" style="color: transparent">
+                                        <img src="csimport/pinterest-icon.png" alt="Prestigia" width="20" height="20">
+                                    </a>
+                                    <a href="https://www.instagram.com/prestigiahotels" title="Prestigia" target="_blank" style="color: transparent">
+                                        <img src="csimport/instagram-icon.png" alt="Prestigia" width="20" height="20">
+                                    </a>
+                                </div>
+                                <div class="footer-container__service">
+                                    <div style="font-family: Helvetica,Arial,sans-serif;
+                            font-size: 19px;
+                            font-weight: 300;
+                            text-transform: uppercase;
+                            color: #fff;">
+                                        <singleline label="service_client_header">CUSTOMER SERVICE</singleline>
+                                    </div>
+                                    <div style="font-family: Helvetica,Arial,sans-serif; font-size: 14px;color: #fff;margin: 5px 0 20px 0;font-weight: lighter;">
+                                        <singleline label="service_client_available">Our customer service is available 7/7</singleline>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="hide"></td>
+                            <td>
+                                <table class="footer" style="width: 100%;">
+                                    <tbody><tr>
+                                        <td>
+                                            <div class="footer-contact">
+                                                <b style="font-family: Helvetica,Arial,sans-serif;
+                                font-size: 16px;
+                                color: #fff;font-weight: 400;">
+                                                    <singleline label="contact_title">Contact</singleline>
+                                                </b>
+                                                <span style="font-family: Helvetica,Arial,sans-serif;
+                            font-size: 14px;
+                            display: block;
+                            color: #fff;margin: 3px 0;font-weight: 300;">
+                                 <singleline label="tel3">+44 (0) 203 051 66 62</singleline>
+                            </span>
+                                                <span style="font-family: Helvetica,Arial,sans-serif;
+                            font-size: 14px;
+                            display: block;
+                            color: #fff;margin: 3px 0;font-weight: 300;">
+                                 <singleline label="mail">reservations@prestigia.com</singleline>
+                            </span>
+                                            </div>
+                                            <div class="footer-times">
+                                                <b style="font-family: Helvetica,Arial,sans-serif;
+                            font-size: 16px;
+                            color: #fff;font-weight: 400;">
+
+                                                </b>
+                                                <div style="font-family: Helvetica,Arial,sans-serif;
+                            font-size: 14px;
+                            color: #fff;font-weight: 300;margin: 3px 0">
+
+                                                </div>
+                                                <div style="font-family: Helvetica,Arial,sans-serif;
+                            font-size: 14px;
+                            color: #fff;font-weight: 300;margin: 3px 0">
+
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="footer">
+                                <p class="container-padding" style="font-family: Helvetica,Arial,sans-serif; font-size: 12px; line-height: 20px; color: #cfd6d8; text-align: center; padding-right: 20px;font-weight: lighter;margin-top: 20px;">
+                                    <singleline label="contact">If you no longer wish to receive these newsletters and you don't mind missing out interesting hotel offers, simply click on </singleline>
+                                    <unsubscribe>unsubscribe</unsubscribe>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+            </tr>
+        </tbody></table>
+        <p style="font-family: Helvetica,Arial,sans-serif; font-size: 14px; color: #a6abac; text-align: center;font-weight: lighter;">
+            <singleline label="bottom_info">Prestigia 2017</singleline>
+        </p>
+        <p style="font-family: Helvetica,Arial,sans-serif; font-size: 14px; line-height: 20px; color: #333; text-align: center; margin: 0 0 10px 0px;">
+            -</p>
+    </body>
+    
+</html>
